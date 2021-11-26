@@ -20,4 +20,9 @@ public class login extends AppCompatActivity {
         Intent intent = new Intent(this, signup.class);
         startActivity(intent);
     }
+
+    public void loginClick(View view){
+        Intent intent = new Intent(this, mainsreen.class);
+        startActivity(intent);
+    }
 }

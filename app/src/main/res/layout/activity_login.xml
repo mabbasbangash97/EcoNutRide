@@ -108,6 +108,7 @@
         android:layout_width="227dp"
         android:layout_height="49dp"
         android:background="@drawable/outline_background"
+        android:onClick="loginClick"
         android:padding="10dp"
         android:text="@string/log_in"
         android:textColor="#ffffff"

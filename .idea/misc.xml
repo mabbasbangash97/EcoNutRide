@@ -8,7 +8,10 @@
         <entry key="..\:/Users/Maverick/AndroidStudioProjects/EcoNutRide/app/src/main/res/drawable/mybutton.xml" value="0.23941368078175895" />
         <entry key="..\:/Users/Maverick/AndroidStudioProjects/EcoNutRide/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/Maverick/AndroidStudioProjects/EcoNutRide/app/src/main/res/layout/activity_main.xml" value="0.12960526315789472" />
-        <entry key="..\:/Users/Maverick/AndroidStudioProjects/EcoNutRide/app/src/main/res/layout/activity_signup.xml" value="0.5" />
+        <entry key="..\:/Users/Maverick/AndroidStudioProjects/EcoNutRide/app/src/main/res/layout/activity_mainscreen.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Maverick/AndroidStudioProjects/EcoNutRide/app/src/main/res/layout/activity_mainsreen.xml" value="0.5" />
+        <entry key="..\:/Users/Maverick/AndroidStudioProjects/EcoNutRide/app/src/main/res/layout/activity_signup.xml" value="0.25" />
+        <entry key="..\:/Users/Maverick/AndroidStudioProjects/EcoNutRide/app/src/main/res/layout/activity_splashcreen.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

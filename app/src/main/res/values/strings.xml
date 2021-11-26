@@ -8,7 +8,7 @@
     <string name="pic">TODO</string>
     <string name="smthng">TODO</string>
     <string name="logintitle">Login!</string>
-    <string name="imageOfEmail">Emaillogo!</string>
+    <string name="imageOfEmail">Emaillogo</string>
     <string name="password">password</string>
     <string name="btn">Buttons</string>
     <string name="abc">TODO</string>
@@ -28,4 +28,7 @@
     <string name="sign_up123">SIGN UP</string>
     <string name="i_have_accepted_the_terms_and_conditions">I have accepted the terms and conditions</string>
     <string name="zxcvb">TODO</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="emaillogo">Emaillogo</string>
 </resources>

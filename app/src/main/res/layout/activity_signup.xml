@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:focusable="auto"
     android:background="#CAEACB"
+    android:focusable="auto"
     tools:context=".signup">
 
     <ImageView
@@ -184,6 +184,7 @@
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:fontFamily="@font/allerta_stencil"
+        android:onClick="backOnClick"
         android:text="@string/backbtn"
         android:textColor="#0E0909"
         android:textSize="20sp"
@@ -211,14 +212,17 @@
         android:id="@+id/agree"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
         android:layout_marginBottom="136dp"
         android:text="@string/i_have_accepted_the_terms_and_conditions"
+        android:textColor="#0E0B0B"
+        android:textColorHighlight="#0B0808"
+        android:textColorLink="#0C0909"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dateofbirth_txt"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="0.883" />
 
     <Button
         android:id="@+id/signup_btn"
@@ -229,37 +233,48 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/agree"
-        app:layout_constraintVertical_bias="0.45" />
-
-    <EditText
-        android:id="@+id/dateofbirth_txt"
-        android:layout_width="249dp"
-        android:layout_height="47dp"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:inputType="date"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.629"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
-        android:importantForAutofill="no" />
+        app:layout_constraintVertical_bias="0.289" />
 
     <ImageView
-        android:id="@+id/dateofbirth_logo"
-        android:layout_width="45dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="4dp"
+        android:id="@+id/gender"
+        android:layout_width="44dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="28dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/dateofbirth_txt"
-        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintEnd_toStartOf="@+id/female_gender"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.004"
-        app:srcCompat="@drawable/date_of_birth"
-        android:contentDescription="@string/zxcvb" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_gender"
+        android:contentDescription="@string/emaillogo" />
+
+    <RadioButton
+        android:id="@+id/male_gender"
+        android:layout_width="83dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="56dp"
+        android:text="@string/male"
+        app:layout_constraintBottom_toBottomOf="@+id/gender"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="@+id/gender"
+        app:layout_constraintTop_toTopOf="@+id/gender"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+    <RadioButton
+        android:id="@+id/female_gender"
+        android:layout_width="84dp"
+        android:layout_height="46dp"
+        android:text="@string/female"
+        app:layout_constraintBottom_toBottomOf="@+id/male_gender"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.764"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/male_gender"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
