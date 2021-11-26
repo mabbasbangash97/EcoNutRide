@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">EcoNutRide</string>
+    <string name="todo">TODO</string>
+    <string name="login">Login</string>
+    <string name="outline">___</string>
+    <string name="name">Name</string>
+    <string name="username">username</string>
+    <string name="pic">TODO</string>
+    <string name="smthng">TODO</string>
+    <string name="logintitle">Login!</string>
+    <string name="imageOfEmail">Emaillogo!</string>
+    <string name="password">password</string>
+    <string name="btn">Buttons</string>
+    <string name="abc">TODO</string>
+    <string name="log_in">Log in</string>
+    <string name="ert">TODO</string>
+    <string name="signup">TextView</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="lt_back">Backlabel</string>
+    <string name="backbtn"><![CDATA[< Back]]></string>
+    <string name="sign_up1">Sign up</string>
+    <string name="email2">email</string>
+    <string name="confirm_password2">confirm password</string>
+    <string name="date_of_birth">date of birth</string>
+    <string name="nmb">TODO</string>
+    <string name="tttt">TODO</string>
+    <string name="sign_up123">SIGN UP</string>
+    <string name="i_have_accepted_the_terms_and_conditions">I have accepted the terms and conditions</string>
+    <string name="zxcvb">TODO</string>
+</resources>
