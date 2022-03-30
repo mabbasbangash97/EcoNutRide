@@ -25,37 +25,37 @@ public class topspots extends AppCompatActivity {
         if(i == 1){
             title.setText("Babu Sar Top");
             dist.setText("Distance from Islamabad (km):" + "348.3");
-            img.setImageResource(R.drawable.kumrat);
+            img.setImageResource(R.drawable.p1);
             i++;
         }
         else if(i == 2){
             title.setText("Bahrain (Swat)");
             dist.setText("Distance from Islamabad (km):" + "290.7");
-            img.setImageResource(R.drawable.kumrat);
+            img.setImageResource(R.drawable.p2);
             i++;
         }
         else if(i == 3){
             title.setText("Fairy Meadows");
             dist.setText("Distance from Islamabad (km):" + "454.4");
-            img.setImageResource(R.drawable.kumrat);
+            img.setImageResource(R.drawable.p3);
             i++;
         }
         else if(i == 4){
             title.setText("Nathia Gali");
             dist.setText("Distance from Islamabad (km):" + "84.7");
-            img.setImageResource(R.drawable.kumrat);
+            img.setImageResource(R.drawable.p4);
             i++;
         }
         else if(i == 4){
             title.setText("Mukesh Puri");
             dist.setText("Distance from Islamabad (km):" + "81.7");
-            img.setImageResource(R.drawable.kumrat);
+            img.setImageResource(R.drawable.p5);
             i++;
         }
         else if(i == 5){
             title.setText("Harnoi Waterfall");
             dist.setText("Distance from Islamabad (km):" + "144.6");
-            img.setImageResource(R.drawable.kumrat);
+            img.setImageResource(R.drawable.p6);
             i=1;
         }
 
